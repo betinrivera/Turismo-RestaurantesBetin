@@ -14,6 +14,8 @@
 		3D605A34215BD7B200F2711B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D605A32215BD7B200F2711B /* LaunchScreen.storyboard */; };
 		3D605A3F215BD7B200F2711B /* Turismo_RestaurantesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D605A3E215BD7B200F2711B /* Turismo_RestaurantesTests.swift */; };
 		3D605A4A215BD7B200F2711B /* Turismo_RestaurantesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D605A49215BD7B200F2711B /* Turismo_RestaurantesUITests.swift */; };
+		3D605A5A215BDA4100F2711B /* Lugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D605A59215BDA4100F2711B /* Lugares.swift */; };
+		3D605A5C215BECC900F2711B /* CeldaLugares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D605A5B215BECC900F2711B /* CeldaLugares.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3D605A45215BD7B200F2711B /* Turismo&RestaurantesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turismo&RestaurantesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D605A49215BD7B200F2711B /* Turismo_RestaurantesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turismo_RestaurantesUITests.swift; sourceTree = "<group>"; };
 		3D605A4B215BD7B200F2711B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D605A59215BDA4100F2711B /* Lugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lugares.swift; sourceTree = "<group>"; };
+		3D605A5B215BECC900F2711B /* CeldaLugares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaLugares.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,9 @@
 		3D605A1D215BD7AF00F2711B = {
 			isa = PBXGroup;
 			children = (
+				3D605A5F215BECF500F2711B /* ViewControllers */,
+				3D605A5E215BECEF00F2711B /* Views */,
+				3D605A5D215BECE600F2711B /* Models */,
 				3D605A28215BD7B000F2711B /* Turismo&Restaurantes */,
 				3D605A3D215BD7B200F2711B /* Turismo&RestaurantesTests */,
 				3D605A48215BD7B200F2711B /* Turismo&RestaurantesUITests */,
@@ -98,10 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				3D605A29215BD7B000F2711B /* AppDelegate.swift */,
-				3D605A2B215BD7B000F2711B /* ViewController.swift */,
-				3D605A2D215BD7B000F2711B /* Main.storyboard */,
 				3D605A30215BD7B200F2711B /* Assets.xcassets */,
-				3D605A32215BD7B200F2711B /* LaunchScreen.storyboard */,
 				3D605A35215BD7B200F2711B /* Info.plist */,
 			);
 			path = "Turismo&Restaurantes";
@@ -123,6 +127,32 @@
 				3D605A4B215BD7B200F2711B /* Info.plist */,
 			);
 			path = "Turismo&RestaurantesUITests";
+			sourceTree = "<group>";
+		};
+		3D605A5D215BECE600F2711B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D605A59215BDA4100F2711B /* Lugares.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3D605A5E215BECEF00F2711B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D605A2D215BD7B000F2711B /* Main.storyboard */,
+				3D605A32215BD7B200F2711B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3D605A5F215BECF500F2711B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D605A5B215BECC900F2711B /* CeldaLugares.swift */,
+				3D605A2B215BD7B000F2711B /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D605A2C215BD7B000F2711B /* ViewController.swift in Sources */,
+				3D605A5C215BECC900F2711B /* CeldaLugares.swift in Sources */,
+				3D605A5A215BDA4100F2711B /* Lugares.swift in Sources */,
 				3D605A2A215BD7B000F2711B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
